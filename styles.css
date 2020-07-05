@@ -1,0 +1,109 @@
+*{
+
+	box-sizing: border-box;
+
+
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	
+}
+.row{
+	width: 100%;
+	position: relative;
+}
+.box{
+	width: 30%;
+	height: 140px;
+	float: left;
+	padding: 05px;
+	margin: 10px;
+	overflow: hidden;
+
+}
+
+p{
+	font-family: cursive;
+}
+.miidle{
+	text-align: center;
+
+}
+h1{
+	color: red;
+}
+.down{
+	position: relative;
+	top: 10px;
+	margin: 10px;
+	padding: 10px:;
+}
+.box1{
+	background-color: black;
+	border: 1px solid black;
+	position: relative;
+	color: white;
+	
+}
+.right{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border: 1px solid black;
+	background-color: grey;
+	color: white;
+	font-family: cursive;
+}
+.box2{
+	background-color:#00ff00;
+	border: 1px solid black;
+	position: relative;
+}
+.box3{
+	background-color: pink;
+	border: 1px solid black;
+	position: relative;
+
+}
+@media(min-width: 992px ){
+	.box1{
+		width: 30%;
+		
+	}
+	.box2{
+		width: 30%;
+		
+	}
+	.box3{
+		width: 30%;
+
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.box1{
+		width: 45%;
+
+	}
+	.box2{
+		width: 45%;
+		
+	}
+	.box3{
+		width: 100%;
+
+	}
+}
+@media (max-width: 767px){
+	.box1{
+		width: 100%;
+	}
+	.box2{
+		width: 100%;
+	}
+	.box3{
+		width: 100%;
+	}
+
+}
